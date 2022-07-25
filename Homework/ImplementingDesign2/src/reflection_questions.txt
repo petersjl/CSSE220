@@ -1,0 +1,18 @@
+Reflection Questions:
+
+1. Compare your original draft and the final draft. What is the biggest difference between the two?
+
+	I moved a method from one class to another and added some other useful methods to support functionality.
+
+2. What did you have to change and why did you have to change it? If not, explain how you made your decisions in designing.
+
+	I moved the check answer from QuizTester to Question because QuizTester should not have access to the data of Question.
+
+3. Did you re-use your code from ImplementingDesign1? How much did you have to change it if so? (If not, then please explain why)
+
+	Yes, I did reuse the Quiz and Question classes, however, I had to change the ArrayLists to HashMaps to enable easy selection of 
+	objects by their id's. I also added necessary methods to this problem and removed unnecessary ones from the last problem.
+
+4. Select one or more specific design principles and discuss how they relate to the your experience in designing and implementing the code for this assignment.
+
+	1b. My final design changed from the first to make sure each class had access to ONLY the data they needed.

@@ -1,0 +1,23 @@
+Reflection Questions:
+
+1.A In your implementation could you replace Questions with Strings (yes or no)? 
+
+Yes
+
+1.B Why or why not? (2-3 sentences)
+
+The question id's are never explicitly used and are therefore unnecessary in a program of this level. In a higher functioning 
+program it may have been necessary to create a question class, but here it just uses extra data.
+
+2.A. What data type did you use to represent the 1 to many relationship between QuizMain and Question? (provide type)
+
+ArrayList<Question>
+
+2.B. What is another type could you have used? (provide type) 
+
+HashMap<Integer,Question>
+
+2.C. Would that have made the code better or worse? Why? (2-3 sentences)
+
+If I used a HashMap rather than an ArrayList then the id data field in the question class would
+no longer be needed. This could be seen as making the code easier to use.
